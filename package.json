@@ -1,0 +1,28 @@
+{
+  "name": "elite-backend-v3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "connect-mongo": "^3.1.2",
+    "express": "^4.16.4",
+    "express-graphql": "^0.6.12",
+    "express-session": "^1.15.6",
+    "graphql": "14.0.2",
+    "helmet": "^3.21.2",
+    "lodash": "^4.17.15",
+    "mongodb": "^3.3.3",
+    "mongoose": "^5.7.8",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  }
+}
