@@ -5,11 +5,11 @@ const graphqlHTTP = require('express-graphql');
 const schema = require('./graphQL-schema/schema');
 
 
-// const localhost = 'mongodb://localhost/bowsdb';
-// const stage = 'mongodb://heroku_ng8dkl59:gjnc180eek10984o07lcqh680h@ds213209.mlab.com:13209/heroku_ng8dkl59';
-const production = 'mongodb://heroku_d6sps81x:63mu934dgj0am45n9f85lmdi0@ds151943.mlab.com:51943/heroku_d6sps81x';
+const localhost = 'mongodb://localhost/bowsdb';
+// const stage = 'removed for privacy';
+// const production = 'removed for privacy';
 
-const mongoDbUrl = production;
+const mongoDbUrl = localhost;
 
 
 const mongoose = require('mongoose');
