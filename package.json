@@ -19,7 +19,7 @@
     "express-session": "^1.15.6",
     "graphql": "14.0.2",
     "helmet": "^3.21.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "mongodb": "^3.3.3",
     "mongoose": "^5.7.8",
     "passport": "^0.4.0",
